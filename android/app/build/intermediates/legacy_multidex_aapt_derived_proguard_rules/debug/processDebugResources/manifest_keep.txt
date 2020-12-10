@@ -1,0 +1,4 @@
+# Referenced at E:\Trash\TSOW\android\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:16
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at E:\Trash\TSOW\android\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:16
+-keep class com.tsow.MainApplication { <init>(); }

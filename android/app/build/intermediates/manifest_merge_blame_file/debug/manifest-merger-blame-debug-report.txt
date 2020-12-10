@@ -1,0 +1,167 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tsow"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:6:1-75
+11-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:6:18-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:5:5-80
+13-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.facebook.flipper:flipper:0.54.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.54.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\1c7787ec82631e0394972c76bdabe608\flipper-0.54.0\AndroidManifest.xml:16:22-73
+15
+16    <application
+16-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:9:5-38:19
+17        android:name="com.tsow.MainApplication"
+17-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:10:7-38
+18        android:allowBackup="false"
+18-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:14:7-34
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\639e914bfc1efa21e36199d3ff2c5eef\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:12:7-41
+22        android:label="@string/app_name"
+22-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:11:7-39
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:13:7-52
+24        android:theme="@style/AppTheme"
+24-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:15:7-38
+25        android:usesCleartextTraffic="true" >
+25-->E:\Trash\TSOW\android\app\src\debug\AndroidManifest.xml:7:18-53
+26        <activity
+26-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:16:7-36:18
+27            android:name="com.tsow.MainActivity"
+27-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:17:9-37
+28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+28-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:20:9-86
+29            android:label="@string/app_name"
+29-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:18:9-41
+30            android:launchMode="singleTask"
+30-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:21:9-40
+31            android:requestLegacyExternalStorage="true"
+31-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:19:9-52
+32            android:windowSoftInputMode="adjustResize" >
+32-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:22:9-51
+33            <intent-filter>
+33-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:24:9-27:25
+34                <action android:name="android.intent.action.MAIN" />
+34-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:25:13-65
+34-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:25:21-62
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:26:13-73
+36-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:26:23-70
+37            </intent-filter>
+38            <intent-filter>
+38-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:29:10-34:25
+39                <action android:name="android.intent.action.VIEW" />
+39-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:30:13-65
+39-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:30:21-62
+40
+41                <category android:name="android.intent.category.DEFAULT" />
+41-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:31:13-72
+41-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:31:23-69
+42                <category android:name="android.intent.category.BROWSABLE" />
+42-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:32:13-74
+42-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:32:23-71
+43
+44                <data
+44-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:33:13-70
+45                    android:host="login"
+45-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:33:47-67
+46                    android:scheme="oauthlogin" />
+46-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:33:19-46
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+49-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:37:7-84
+49-->E:\Trash\TSOW\android\app\src\main\AndroidManifest.xml:37:17-81
+50
+51        <provider
+51-->[:react-native-mail] E:\Trash\TSOW\node_modules\react-native-mail\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+52            android:name="com.chirag.RNMail.RNMailFileProvider"
+52-->[:react-native-mail] E:\Trash\TSOW\node_modules\react-native-mail\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-64
+53            android:authorities="com.tsow.rnmail.provider"
+53-->[:react-native-mail] E:\Trash\TSOW\node_modules\react-native-mail\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-67
+54            android:exported="false"
+54-->[:react-native-mail] E:\Trash\TSOW\node_modules\react-native-mail\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+55            android:grantUriPermissions="true" >
+55-->[:react-native-mail] E:\Trash\TSOW\node_modules\react-native-mail\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+56            <meta-data
+56-->[:react-native-mail] E:\Trash\TSOW\node_modules\react-native-mail\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:58
+57                android:name="android.support.FILE_PROVIDER_PATHS"
+57-->[:react-native-mail] E:\Trash\TSOW\node_modules\react-native-mail\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+58                android:resource="@xml/provider_paths" />
+58-->[:react-native-mail] E:\Trash\TSOW\node_modules\react-native-mail\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-55
+59        </provider>
+60        <provider
+60-->[:react-native-share] E:\Trash\TSOW\node_modules\react-native-share\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+61            android:name="cl.json.RNShareFileProvider"
+61-->[:react-native-share] E:\Trash\TSOW\node_modules\react-native-share\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-55
+62            android:authorities="com.tsow.rnshare.fileprovider"
+62-->[:react-native-share] E:\Trash\TSOW\node_modules\react-native-share\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-72
+63            android:exported="false"
+63-->[:react-native-share] E:\Trash\TSOW\node_modules\react-native-share\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+64            android:grantUriPermissions="true" >
+64-->[:react-native-share] E:\Trash\TSOW\node_modules\react-native-share\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+65            <meta-data
+65-->[:react-native-mail] E:\Trash\TSOW\node_modules\react-native-mail\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:58
+66                android:name="android.support.FILE_PROVIDER_PATHS"
+66-->[:react-native-mail] E:\Trash\TSOW\node_modules\react-native-mail\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+67                android:resource="@xml/share_download_paths" />
+67-->[:react-native-mail] E:\Trash\TSOW\node_modules\react-native-mail\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-55
+68        </provider>
+69
+70        <activity
+70-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\7e873024a2fa5e8dabdf91fac34a60c5\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+71            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+71-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\7e873024a2fa5e8dabdf91fac34a60c5\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+72            android:excludeFromRecents="true"
+72-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\7e873024a2fa5e8dabdf91fac34a60c5\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\7e873024a2fa5e8dabdf91fac34a60c5\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\7e873024a2fa5e8dabdf91fac34a60c5\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+75        <!--
+76            Service handling Google Sign-In user revocation. For apps that do not integrate with
+77            Google Sign-In, this service will never be started.
+78        -->
+79        <service
+79-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\7e873024a2fa5e8dabdf91fac34a60c5\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+80            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+80-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\7e873024a2fa5e8dabdf91fac34a60c5\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+81            android:exported="true"
+81-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\7e873024a2fa5e8dabdf91fac34a60c5\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+82            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+82-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\7e873024a2fa5e8dabdf91fac34a60c5\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+83
+84        <activity
+84-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+85-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+87-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+88
+89        <meta-data
+89-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\2c78fe22af18a83ad351f40bb7d7bb49\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+90            android:name="com.google.android.gms.version"
+90-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\2c78fe22af18a83ad351f40bb7d7bb49\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+91            android:value="@integer/google_play_services_version" />
+91-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Lenovo\.gradle\caches\transforms-2\files-2.1\2c78fe22af18a83ad351f40bb7d7bb49\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+92    </application>
+93
+94</manifest>
